@@ -1,0 +1,78 @@
+:root {
+    --primary-color: #112D4E;
+    --primary-light-color: #3F72AF;
+    --secondary-color: #DBE2EF;
+    --secondary-light-color: #F9F7F7;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    display: flex;
+    justify-content: center;
+
+  }
+  .continer{
+    width: 80%;
+    background-color: var(--secondary-light-color);
+    height: 100vh;
+    display: flex;
+    /* justify-content: space-between; */
+  }
+  .side-container{
+    background-color: var(--primary-color);
+    padding: 1.5rem;
+  }
+  .side-container h1{
+    color: var(--secondary-color);
+  }
+  .side-btn{
+    border:1px solid var(--primary-light-color) ;
+    padding: 1.2rem;
+    display: block;
+    margin: 1.1rem;
+    border-radius: 1.1rem;
+    background-color: var(--primary-light-color);
+    color: var(--secondary-color);
+    cursor: pointer;
+   width: 150px;
+
+  }
+  .student-contanier-card,.course-contanier-card{
+    display: block;
+    padding: 1.2rem;
+    border: 2px solid var(--primary-color);
+    margin: 1rem;
+    border-radius: 1.1rem;
+  }
+  .side-data-container{
+    width: 100%;
+  }
+  .icons{
+    float: right;
+  }
+  .update-icon,.delete-icon{
+    cursor: pointer;
+  }
+  form{
+    margin: 1rem;
+  }
+   input[type=text] {
+    border: none;
+    padding: 1.1rem;
+    outline: none;
+    background-color: var(--secondary-color);
+    border-radius: 1.1rem;
+    width: 70%;
+  }
+  .submit-btn,.search-btn{
+    background-color: var(--primary-color);
+    color: var(--secondary-light-color);
+    float: right;
+    padding: 1.3rem;
+    border-radius: 1rem;
+  }
+  .course-contanier-card h4{
+    color: var(--primary-color);
+  }
