@@ -1,7 +1,7 @@
 
 # students-courses-nodejs
 
-[Site](https://studentscourses.onrender.com/) 
+[see the website](https://studentscourses.onrender.com/) 
 
 ## technology
 
